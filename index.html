@@ -1,0 +1,921 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>demo shop</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/base.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./assets/fontawesome-free-6.1.1-web/fontawesome-free-6.1.1-web/css/all.css">
+</head>
+<body>
+    <div class="main">
+        <header class="header">
+            <div class="grid">
+                <nav class="header__navbar">
+                    <ul class="header__navbar-list">
+                        <li class="header__openqrandapps header__navbar-item header__navbar-item--separate">
+                            <div class="header__qrandapps">
+                                <img src="./assets/css/img/qr.png" alt="qrcode" class="header__qrcode">
+                                <div class="header__apps">
+                                    <a href="" class="header__apps-link"><img class="header__apps-img" src="./assets/css/img/google_play.png" alt="Google Play"></a>
+                                    <a href="" class="header__apps-link"><img class="header__apps-img" src="./assets/css/img/app_store.png" alt="App Store"></a>
+                                    
+                                </div>
+                            </div>
+                            Parfum
+                        </li>
+                        <li class="header__navbar-item">
+                            <span class="header__navbar-item--unhover"> Kết nối</span>
+                            <a href="https://www.facebook.com/vannkhanhhxinhdep/" class="header__navbar-item-icon-link">
+                                <i class="header__navbar-item-icon fa-brands fa-facebook"></i>
+                            </a>
+                            <a href="" class="header__navbar-item-icon-link">
+                                <i class="header__navbar-item-icon fa-brands fa-google"></i>
+                            </a>
+                        </li>
+                    </ul>
+                    <ul class="header__navbar-list">
+                        <li class="header__navbar-item header__navbar-open-notify">
+                            <a href=""class=" header__navbar-item-link">
+                                <a href="" class="header__navbar-item-icon-link">
+                                    <i class="header__navbar-item-icon fa-solid fa-bell"></i>
+                                </a>
+                                Thông Báo
+                            </a>
+                            <div class="header__notify">
+                                <header class="header__notify-header">
+                                    <h3>Thông Báo Mới!</h3>
+                                </header>
+                                <ul class="header__notify-list">
+                                    <li class="header__notify-item header__notify-item--viewed">
+                                        <a href="" class="header__notify-item-link">
+                                            <img src="./assets/css/img/hình ảnh các item thông báo/dior-sauvage-edp-orchard.webp" alt="Bánh Xe" class="header__notify-item-img">
+                                            <div class="header__notify-item-info">
+                                                <span class="header__notify-item-info-name">Dior sauvage</span>
+                                                <span class="header__notify-item-info-description">Một mùi hương cực kì nam tính và cuốn hút</span>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li class="header__notify-item ">
+                                        <a href="" class="header__notify-item-link">
+                                            <img src="./assets/css/img/hình ảnh các item thông báo/610M.jpg" alt="Bánh Xe" class="header__notify-item-img">
+                                            <div class="header__notify-item-info">
+                                                <span class="header__notify-item-info-name">Acquad Di Giò</span>
+                                                <span class="header__notify-item-info-description">Sale giá cực sốc xem chi tiết tại</span>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li class="header__notify-item ">
+                                        <a href="" class="header__notify-item-link">
+                                            <img src="./assets/css/img/hình ảnh các item thông báo/286980410788-e1571646900732.webp" alt="Bánh Xe" class="header__notify-item-img">
+                                            <div class="header__notify-item-info">
+                                                <span class="header__notify-item-info-name">Gucci Guilty Intense Pour Homme </span>
+                                                <span class="header__notify-item-info-description"> Nam tính, lịch lãm, quyến rũ, Độ lưu hương: Lâu - 7 giờ đến 12 giờ</span>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    
+                                </ul>
+                                <footer class="header__notify-footer">
+                                    <a href="" class="header__notify-footer-btn">Xem Tất Cả</a>
+                                </footer>
+                            </div>
+                        </li>
+                        <li class="header__navbar-item">
+                            <a href=""class='header__navbar-item-link'>
+                                <a href="" class="header__navbar-item-icon-link">
+                                    <i class="header__navbar-item-icon fa-solid fa-circle-question"></i>
+                                </a>
+                                Trợ Giúp
+                            </a>
+                        </li>
+                        <!-- <li class="header__navbar-item header__navbar-item--strong header__navbar-item--separate">
+                            <button class="header__navbar-item-signup js-signup-btn">Đăng Ký</button> 
+                            
+                        </li>
+                        <li class="header__navbar-item header__navbar-item--strong">
+                            <button class="header__navbar-item-signin js-signin-btn">Đăng nhập</button> 
+                        </li> -->
+                        <li class="header__navbar-item header__navbar-user">
+                            <img src="./assets/css/img/284988141_535847888030611_5179340566475529491_n.jpg" alt="" class="header__navbar-user-img">
+                            <span class="header__navbar-user-name">Long Võ</span>
+                            <ul class="header_navbar-user-menu">
+                                <li class="header__navbar-user-item">
+                                    <a style="display: block;" href="header__navbar-user-item-link">Tài Khoản</a>
+                                    <a style="display: block;" href="header__navbar-user-item-link">Khiếu Nại </a>
+                                    <a style="display: block;" href="header__navbar-user-item-link">Liên Hệ </a>
+                                    <a style="display: block;" href="header__navbar-user-item-link header__navbar-user-item-link--separate">Đăng xuất</a>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </nav>
+                <!-- header search -->
+                <div class="header-with-search">
+                    <div class="header__logo">
+                        <a href="/" class="header__logo-link">
+                            <img class="header__logo-img" src="./assets/css/img/logo dior.webp" alt="logo">
+                        </a>
+                    </div>
+                    
+                    <div class="header__search">
+                        <div class="header_search-input-wrap">
+                            <input placeholder="Tìm kiếm sản phẩm..." type="text" class="header__search-input">
+                            <!-- search history -->
+                            <div class="header__search-history">
+                                <h3 class="header__search-history-heading">Lịch sử tìm kiếm</h3>
+                                <ul class="header__search-history-list">
+                                    <li class="header__search-history-item">
+                                        <a href="">Dior Sauvage</a>
+                                    </li>
+                                    <li class="header__search-history-item">
+                                        <a href="">Versace pur homme</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                         <div class="header__search-selection">
+                             <span class="header__search-selection-label"> Parfume </span>
+                             <i class="header__search-selection-icon fa-solid fa-angle-down"></i>
+                             <ul class="header__search-option">
+                                 <li class="header__search-option-item header__search-option-item--active">
+                                    <span>Parfume</span>
+                                    <i class="fa-solid fa-check"></i>
+                                 </li>
+                                 <li class="header__search-option-item">
+                                    <span>Phụ Kiện</span>
+                                    <i class="fa-solid fa-check"></i>
+                                </li>
+                             </ul>
+                         </div>
+                         <button class="header__search-selection-search-btn">
+                            <i class="header__search-btn-icon fa-solid fa-magnifying-glass"></i>
+                         </button>
+                    </div>
+                        <!-- giỏ hàng -->
+                    <div class="header__cart">
+                        <div class="header__cart-wrap">
+                            <i class="header__cart-logo fa-solid fa-cart-shopping"></i>
+                            <span class="header__cart-quanti">3</span>
+                            
+                            <!-- không có giỏ hàng header__cart-list--no-cart -->
+                            <div class="header__cart-list header__cart-list--no-cart">
+                                <img src="./assets/css/img/hình ảnh các item thông báo/empty cart.png" alt="nothing" class="header__cart-no-cart-img">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+
+        </header>
+
+
+
+
+        <div class="app__container">
+            <div class="grid">
+                <div class="grid__row app__content">
+                    <div class="grid__column-2">
+                        <nav class="category">
+                            <h3 class="category__heading">
+                                <i class="category__heading-icon fa-solid fa-list"></i>
+                                Danh Mục
+                            </h3>
+                            <ul class="category-list">
+                                <li class="category-item category-item--active">
+                                    <a href="" class="category-item__link">Dior</a>
+                                </li>
+                                <li class="category-item">
+                                    <a href="" class="category-item__link">Channel</a>
+                                </li>
+                                <li class="category-item">
+                                    <a href="" class="category-item__link">Versace</a>
+                                </li>
+                                <li class="category-item">
+                                    <a href="" class="category-item__link">Gucci</a>
+                                </li>
+                                <li class="category-item">
+                                    <a href="" class="category-item__link">Acqua Di Giò</a>
+                                </li>
+                                <li class="category-item">
+                                    <a href="" class="category-item__link">Aventús</a>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
+                    <div class="grid__column-10">
+                        <div class="home-filter">
+                            <span class="home-filter__label">Sắp xếp theo</span> 
+                            <button class="home-filter__btn btn home-filter__btn--black ">Phổ biến</button>
+                            <button class="home-filter__btn btn--primary">Mới nhất</button>
+
+                            <div class="select-input">
+                                <span class="select-input__label">Giá</span>
+                                <i class="select-input__icon fas fa-angle-down"></i>
+                                <ul class="select-input__list">
+                                    <li class="select-input__item">
+                                        <a href="" class="select-input__link">Từ thấp đến cao</a>
+                                    </li>
+                                    <li class="select-input__item">
+                                        <a href="" class="select-input__link">Từ cao đến thấp</a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="home-filter__page">
+                                <span class="home-filter__page-num">
+                                    <span class="home-filter__page-current">1</span>/12
+                                </span>
+                                <div class="home-filter__page-control">
+                                    <a href="" class="home-filter__page-btn home-filter__page-btn-disable">
+                                        <i class="home-filter__page-icon  fas fa-angle-left"></i>
+                                    </a>
+                                    <a href="" class="home-filter__page-btn">
+                                        <i class="home-filter__page-icon fas fa-angle-right"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="home-product">
+                            <!-- grid- row - column -->
+                            <div class="grid__row">
+                                <div class="grid__column-2-4">
+                                    <div class="home-product-item">
+                                        <img class="home-product-item__img" src="./assets/css/img/hình ảnh các item thông báo/Dior/DIOR HOMME.jpg" alt="">
+                                        <h4 class="home-product-item__name">Dior Homme, Eau de Toilette for Men Between Strength & Sensuality</h4>
+                                        <div class="home-product-item__price">
+                                            <span class="home-product-item__price-old">2.467.000đ</span>
+                                            <span class="home-product-item__price-current"> 1.995.000đ</span>
+                                        </div>
+                                        <div class="home-product-item__action">
+                                            <span class="home-product-item__like home-product-item__like--liked">
+                                                <i class="home-product-item__like-icon-empty fa-regular fa-heart"></i>
+                                                <i class="home-product-item__like-icon-fill fa-solid fa-heart"></i>
+                                            </span>
+                                            <div class="home-product-item__rating">
+                                                <i class=" fa-solid fa-star"></i>
+                                                <i class=" fa-solid fa-star"></i>
+                                                <i class=" fa-solid fa-star"></i>
+                                                <i class=" fa-solid fa-star"></i>
+                                                <i class="home-product-item__normal-star fa-solid fa-star"></i>
+                                            </div>
+                                        </div>
+                                        <div class="home-product-item__origin">
+                                            <span class="home-product-item__brand">Dior</span>
+                                            <span class="home-product-item__origin-name">French</span>
+                                        </div>
+                                        <div class="home-product-item__favourite">
+                                            <i class="fa-solid fa-check"></i>
+                                            Best Sell
+                                        </div>
+                                        <div class="home-product-item__sale-off">
+                                            <span class="home-product-item__sale-off-percent">10%</span>
+                                            <span class="home-product-item__sale-off-label">Disc</span>
+                                        </div>
+                                        
+                                    </div>
+                                </div>
+                                <div class="grid__column-2-4">
+                                    <div class="home-product-item">
+                                        <img class="home-product-item__img" src="./assets/css/img/hình ảnh các item thông báo/Dior/Dior Sauvage.webp" alt="">
+                                        <h4 class="home-product-item__name">Dior Sauvage</h4>
+                                        <div class="home-product-item__price">
+                                            <span class="home-product-item__price-old">3.207.000đ</span>
+                                            <span class="home-product-item__price-current"> 2.795.000đ</span>
+                                        </div>
+                                        <div class="home-product-item__action">
+                                            <span class="home-product-item__like home-product-item__like--liked">
+                                                <i class="home-product-item__like-icon-empty fa-regular fa-heart"></i>
+                                                <i class="home-product-item__like-icon-fill fa-solid fa-heart"></i>
+                                            </span>
+                                            <div class="home-product-item__rating">
+                                                <i class=" fa-solid fa-star"></i>
+                                                <i class=" fa-solid fa-star"></i>
+                                                <i class=" fa-solid fa-star"></i>
+                                                <i class=" fa-solid fa-star"></i>
+                                                <i class="home-product-item__normal-star fa-solid fa-star"></i>
+                                            </div>
+                                        </div>
+                                        <div class="home-product-item__origin">
+                                            <span class="home-product-item__brand">Dior</span>
+                                            <span class="home-product-item__origin-name">French</span>
+                                        </div>
+                                        <div class="home-product-item__favourite">
+                                            <i class="fa-solid fa-check"></i>
+                                            Best Sell
+                                        </div>
+                                        <div class="home-product-item__sale-off">
+                                            <span class="home-product-item__sale-off-percent">25%</span>
+                                            <span class="home-product-item__sale-off-label">Disc</span>
+                                        </div>
+                                        
+                                    </div>
+                                </div>
+                                <div class="grid__column-2-4">
+                                    <div class="home-product-item">
+                                        <img class="home-product-item__img" src="./assets/css/img/hình ảnh các item thông báo/Dior/MISS DIOR EAU DE PARFUM.webp" alt="">
+                                        <h4 class="home-product-item__name">MISS DIOR EAU DE PARFUM</h4>
+                                        <div class="home-product-item__price">
+                                            <span class="home-product-item__price-old">2.299.000đ</span>
+                                            <span class="home-product-item__price-current"> 1.895.000đ</span>
+                                        </div>
+                                        <div class="home-product-item__action">
+                                            <span class="home-product-item__like home-product-item__like--liked">
+                                                <i class="home-product-item__like-icon-empty fa-regular fa-heart"></i>
+                                                <i class="home-product-item__like-icon-fill fa-solid fa-heart"></i>
+                                            </span>
+                                            <div class="home-product-item__rating">
+                                                <i class=" fa-solid fa-star"></i>
+                                                <i class=" fa-solid fa-star"></i>
+                                                <i class=" fa-solid fa-star"></i>
+                                                <i class=" fa-solid fa-star"></i>
+                                                <i class="home-product-item__normal-star fa-solid fa-star"></i>
+                                            </div>
+                                        </div>
+                                        <div class="home-product-item__origin">
+                                            <span class="home-product-item__brand">Dior</span>
+                                            <span class="home-product-item__origin-name">French</span>
+                                        </div>
+                                        <div class="home-product-item__favourite">
+                                            <i class="fa-solid fa-check"></i>
+                                            Best Sell
+                                        </div>
+                                        <div class="home-product-item__sale-off">
+                                            <span class="home-product-item__sale-off-percent">40%</span>
+                                            <span class="home-product-item__sale-off-label">Disc</span>
+                                        </div>
+                                        
+                                    </div>
+                                </div>
+                                <div class="grid__column-2-4">
+                                    <div class="home-product-item">
+                                        <img class="home-product-item__img" src="./assets/css/img/hình ảnh các item thông báo/Dior/nuoc-hoa-nu-dior-hypnotic-poison-100ml.jpg" alt="">
+                                        <h4 class="home-product-item__name">Dior Hypnotic Poison</h4>
+                                        <div class="home-product-item__price">
+                                            <span class="home-product-item__price-old">2.667.000đ</span>
+                                            <span class="home-product-item__price-current"> 1.895.000đ</span>
+                                        </div>
+                                        <div class="home-product-item__action">
+                                            <span class="home-product-item__like home-product-item__like--liked">
+                                                <i class="home-product-item__like-icon-empty fa-regular fa-heart"></i>
+                                                <i class="home-product-item__like-icon-fill fa-solid fa-heart"></i>
+                                            </span>
+                                            <div class="home-product-item__rating">
+                                                <i class=" fa-solid fa-star"></i>
+                                                <i class=" fa-solid fa-star"></i>
+                                                <i class=" fa-solid fa-star"></i>
+                                                <i class=" fa-solid fa-star"></i>
+                                                <i class="home-product-item__normal-star fa-solid fa-star"></i>
+                                            </div>
+                                        </div>
+                                        <div class="home-product-item__origin">
+                                            <span class="home-product-item__brand">Dior</span>
+                                            <span class="home-product-item__origin-name">French</span>
+                                        </div>
+                                        <div class="home-product-item__favourite">
+                                            <i class="fa-solid fa-check"></i>
+                                            Best Sell
+                                        </div>
+                                        <div class="home-product-item__sale-off">
+                                            <span class="home-product-item__sale-off-percent">50%</span>
+                                            <span class="home-product-item__sale-off-label">Disc</span>
+                                        </div>
+                                        
+                                    </div>
+                                </div>
+                                <div class="grid__column-2-4">
+                                    <div class="home-product-item">
+                                        <img class="home-product-item__img" src="./assets/css/img/hình ảnh các item thông báo/Dior/Dior Addict Eau Fraiche.webp" alt="">
+                                        <h4 class="home-product-item__name">Dior Addict Eau Fraiche</h4>
+                                        <div class="home-product-item__price">
+                                            <span class="home-product-item__price-old">2.967.000đ</span>
+                                            <span class="home-product-item__price-current"> 2.295.000đ</span>
+                                        </div>
+                                        <div class="home-product-item__action">
+                                            <span class="home-product-item__like home-product-item__like--liked">
+                                                <i class="home-product-item__like-icon-empty fa-regular fa-heart"></i>
+                                                <i class="home-product-item__like-icon-fill fa-solid fa-heart"></i>
+                                            </span>
+                                            <div class="home-product-item__rating">
+                                                <i class=" fa-solid fa-star"></i>
+                                                <i class=" fa-solid fa-star"></i>
+                                                <i class=" fa-solid fa-star"></i>
+                                                <i class=" fa-solid fa-star"></i>
+                                                <i class="home-product-item__normal-star fa-solid fa-star"></i>
+                                            </div>
+                                        </div>
+                                        <div class="home-product-item__origin">
+                                            <span class="home-product-item__brand">Dior</span>
+                                            <span class="home-product-item__origin-name">French</span>
+                                        </div>
+                                        <!-- <div class="home-product-item__favourite">
+                                            <i class="fa-solid fa-check"></i>
+                                            Best Sell
+                                        </div> -->
+                                        <div class="home-product-item__sale-off">
+                                            <span class="home-product-item__sale-off-percent">15%</span>
+                                            <span class="home-product-item__sale-off-label">Disc</span>
+                                        </div>
+                                        
+                                    </div>
+                                </div>
+                                <div class="grid__column-2-4">
+                                    <div class="home-product-item">
+                                        <img class="home-product-item__img" src="./assets/css/img/hình ảnh các item thông báo/Dior/Dior Fahrenheit.png" alt="">
+                                        <h4 class="home-product-item__name">Dior Fahrenheit</h4>
+                                        <div class="home-product-item__price">
+                                            <span class="home-product-item__price-old">1.467.000đ</span>
+                                            <span class="home-product-item__price-current"> 1.195.000đ</span>
+                                        </div>
+                                        <div class="home-product-item__action">
+                                            <span class="home-product-item__like home-product-item__like--liked">
+                                                <i class="home-product-item__like-icon-empty fa-regular fa-heart"></i>
+                                                <i class="home-product-item__like-icon-fill fa-solid fa-heart"></i>
+                                            </span>
+                                            <div class="home-product-item__rating">
+                                                <i class=" fa-solid fa-star"></i>
+                                                <i class=" fa-solid fa-star"></i>
+                                                <i class=" fa-solid fa-star"></i>
+                                                <i class=" fa-solid fa-star"></i>
+                                                <i class="home-product-item__normal-star fa-solid fa-star"></i>
+                                            </div>
+                                        </div>
+                                        <div class="home-product-item__origin">
+                                            <span class="home-product-item__brand">Dior</span>
+                                            <span class="home-product-item__origin-name">French</span>
+                                        </div>
+                                        <!-- <div class="home-product-item__favourite">
+                                            <i class="fa-solid fa-check"></i>
+                                            Best Sell
+                                        </div> -->
+                                        <div class="home-product-item__sale-off">
+                                            <span class="home-product-item__sale-off-percent">12%</span>
+                                            <span class="home-product-item__sale-off-label">Disc</span>
+                                        </div>
+                                        
+                                    </div>
+                                </div>
+                                <div class="grid__column-2-4">
+                                    <div class="home-product-item">
+                                        <img class="home-product-item__img" src="./assets/css/img/hình ảnh các item thông báo/Dior/EAU Sauvage.png" alt="">
+                                        <h4 class="home-product-item__name">EAU Sauvage</h4>
+                                        <div class="home-product-item__price">
+                                            <span class="home-product-item__price-old">2.067.000đ</span>
+                                            <span class="home-product-item__price-current"> 1.875.000đ</span>
+                                        </div>
+                                        <div class="home-product-item__action">
+                                            <span class="home-product-item__like home-product-item__like--liked">
+                                                <i class="home-product-item__like-icon-empty fa-regular fa-heart"></i>
+                                                <i class="home-product-item__like-icon-fill fa-solid fa-heart"></i>
+                                            </span>
+                                            <div class="home-product-item__rating">
+                                                <i class=" fa-solid fa-star"></i>
+                                                <i class=" fa-solid fa-star"></i>
+                                                <i class=" fa-solid fa-star"></i>
+                                                <i class=" fa-solid fa-star"></i>
+                                                <i class="home-product-item__normal-star fa-solid fa-star"></i>
+                                            </div>
+                                        </div>
+                                        <div class="home-product-item__origin">
+                                            <span class="home-product-item__brand">Dior</span>
+                                            <span class="home-product-item__origin-name">French</span>
+                                        </div>
+                                        <!-- <div class="home-product-item__favourite">
+                                            <i class="fa-solid fa-check"></i>
+                                            Best Sell
+                                        </div> -->
+                                        <div class="home-product-item__sale-off">
+                                            <span class="home-product-item__sale-off-percent">18%</span>
+                                            <span class="home-product-item__sale-off-label">Disc</span>
+                                        </div>
+                                        
+                                    </div>
+                                </div>
+                                <div class="grid__column-2-4">
+                                    <div class="home-product-item">
+                                        <img class="home-product-item__img" src="./assets/css/img/hình ảnh các item thông báo/Dior/Fragrance.webp" alt="">
+                                        <h4 class="home-product-item__name">Dior Fragrance</h4>
+                                        <div class="home-product-item__price">
+                                            <span class="home-product-item__price-old">1.767.000đ</span>
+                                            <span class="home-product-item__price-current"> 1.355.000đ</span>
+                                        </div>
+                                        <div class="home-product-item__action">
+                                            <span class="home-product-item__like home-product-item__like--liked">
+                                                <i class="home-product-item__like-icon-empty fa-regular fa-heart"></i>
+                                                <i class="home-product-item__like-icon-fill fa-solid fa-heart"></i>
+                                            </span>
+                                            <div class="home-product-item__rating">
+                                                <i class=" fa-solid fa-star"></i>
+                                                <i class=" fa-solid fa-star"></i>
+                                                <i class=" fa-solid fa-star"></i>
+                                                <i class=" fa-solid fa-star"></i>
+                                                <i class="home-product-item__normal-star fa-solid fa-star"></i>
+                                            </div>
+                                        </div>
+                                        <div class="home-product-item__origin">
+                                            <span class="home-product-item__brand">Dior</span>
+                                            <span class="home-product-item__origin-name">French</span>
+                                        </div>
+                                        <!-- <div class="home-product-item__favourite">
+                                            <i class="fa-solid fa-check"></i>
+                                            Best Sell
+                                        </div> -->
+                                        <div class="home-product-item__sale-off">
+                                            <span class="home-product-item__sale-off-percent">30%</span>
+                                            <span class="home-product-item__sale-off-label">Disc</span>
+                                        </div>
+                                        
+                                    </div>
+                                </div>
+                                <div class="grid__column-2-4">
+                                    <div class="home-product-item">
+                                        <img class="home-product-item__img" src="./assets/css/img/hình ảnh các item thông báo/Dior/J'ADORE.webp" alt="">
+                                        <h4 class="home-product-item__name">Dior J'ADORE</h4>
+                                        <div class="home-product-item__price">
+                                            <span class="home-product-item__price-old">1.467.000đ</span>
+                                            <span class="home-product-item__price-current"> 995.000đ</span>
+                                        </div>
+                                        <div class="home-product-item__action">
+                                            <span class="home-product-item__like home-product-item__like--liked">
+                                                <i class="home-product-item__like-icon-empty fa-regular fa-heart"></i>
+                                                <i class="home-product-item__like-icon-fill fa-solid fa-heart"></i>
+                                            </span>
+                                            <div class="home-product-item__rating">
+                                                <i class=" fa-solid fa-star"></i>
+                                                <i class=" fa-solid fa-star"></i>
+                                                <i class=" fa-solid fa-star"></i>
+                                                <i class=" fa-solid fa-star"></i>
+                                                <i class="home-product-item__normal-star fa-solid fa-star"></i>
+                                            </div>
+                                        </div>
+                                        <div class="home-product-item__origin">
+                                            <span class="home-product-item__brand">Dior</span>
+                                            <span class="home-product-item__origin-name">French</span>
+                                        </div>
+                                        <!-- <div class="home-product-item__favourite">
+                                            <i class="fa-solid fa-check"></i>
+                                            Best Sell
+                                        </div> -->
+                                        <div class="home-product-item__sale-off">
+                                            <span class="home-product-item__sale-off-percent">35%</span>
+                                            <span class="home-product-item__sale-off-label">Disc</span>
+                                        </div>
+                                        
+                                    </div>
+                                </div>
+                                <div class="grid__column-2-4">
+                                    <div class="home-product-item">
+                                        <img class="home-product-item__img" src="./assets/css/img/hình ảnh các item thông báo/Dior/OUD ISPAHAN.webp" alt="">
+                                        <h4 class="home-product-item__name">Dior OUD ISPAHAN</h4>
+                                        <div class="home-product-item__price">
+                                            <span class="home-product-item__price-old">1.467.000đ</span>
+                                            <span class="home-product-item__price-current"> 895.000đ</span>
+                                        </div>
+                                        <div class="home-product-item__action">
+                                            <span class="home-product-item__like home-product-item__like--liked">
+                                                <i class="home-product-item__like-icon-empty fa-regular fa-heart"></i>
+                                                <i class="home-product-item__like-icon-fill fa-solid fa-heart"></i>
+                                            </span>
+                                            <div class="home-product-item__rating">
+                                                <i class=" fa-solid fa-star"></i>
+                                                <i class=" fa-solid fa-star"></i>
+                                                <i class=" fa-solid fa-star"></i>
+                                                <i class=" fa-solid fa-star"></i>
+                                                <i class="home-product-item__normal-star fa-solid fa-star"></i>
+                                            </div>
+                                        </div>
+                                        <div class="home-product-item__origin">
+                                            <span class="home-product-item__brand">Dior</span>
+                                            <span class="home-product-item__origin-name">French</span>
+                                        </div>
+                                        <!-- <div class="home-product-item__favourite">
+                                            <i class="fa-solid fa-check"></i>
+                                            Best Sell
+                                        </div> -->
+                                        <div class="home-product-item__sale-off">
+                                            <span class="home-product-item__sale-off-percent">55%</span>
+                                            <span class="home-product-item__sale-off-label">Disc</span>
+                                        </div>
+                                        
+                                    </div>
+                                </div>
+                                
+                                
+                            </div>
+                        </div>
+                        <ul class="pagination home-product__pagination">
+                            <li class="pagination-item">
+                                <a href="" class="pagination-item__link">
+                                    <i class="pagination-item__icon fas fa-angle-left"></i>
+                                </a>
+                            </li>
+                            <li class="pagination-item pagination-item--active">
+                                <a href="" class="pagination-item__link">1</a>
+                            </li>
+                            <li class="pagination-item">
+                                <a href="" class="pagination-item__link">2</a>
+                            </li>
+                            <li class="pagination-item">
+                                <a href="" class="pagination-item__link">3</a> 
+                            </li>
+                            <li class="pagination-item">
+                                <a href="" class="pagination-item__link">4</a>
+                            </li>
+                            <li class="pagination-item">
+                                <a href="" class="pagination-item__link">5</a>
+                            </li>
+                            <li class="pagination-item">
+                                <a href="" class="pagination-item__link">...</a>
+                            </li>
+                            <li class="pagination-item">
+                                <a href="" class="pagination-item__link">14</a>
+                            </li>
+
+
+                            <li class="pagination-item">
+                                <a href="" class="pagination-item__link">
+                                    <i class="pagination-item__icon fas fa-angle-right"></i>
+                                </a>
+                            </li>
+
+
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- footer -->
+        <footer class="footer">
+            <div class="grid">
+                <div class="grid__row">
+                    <div class="grid__column-2-4"> 
+                        <h3 class="footer__heading">CSKH</h3>
+                        <ul class="footer-list">
+                            <li class="footer-item">
+                                <a href="" class="footer-item__link">Trung tâm trợ giúp</a>
+                            </li>
+                            <li class="footer-item">
+                                <a href="" class="footer-item__link">Perfume Store</a>
+                            </li>
+                            <li class="footer-item">
+                                <a href="" class="footer-item__link">Hướng dẫn mua hàng</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="grid__column-2-4">
+                        <h3 class="footer__heading">Giới Thiệu</h3>
+                        <ul class="footer-list">
+                            <li class="footer-item">
+                                <a href="" class="footer-item__link">Giới thiệu</a>
+                            </li>
+                            <li class="footer-item">
+                                <a href="" class="footer-item__link">Tuyển dụng</a>
+                            </li>
+                            <li class="footer-item">
+                                <a href="" class="footer-item__link">Điều khoản</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="grid__column-2-4">
+                        <h3 class="footer__heading">Danh Mục</h3>
+                        <ul class="footer-list">
+                            <li class="footer-item">
+                                <a href="" class="footer-item__link">Dior Perfume</a>
+                            </li>
+                            <li class="footer-item">
+                                <a href="" class="footer-item__link">Gucci Perfume</a>
+                            </li>
+                            <li class="footer-item">
+                                <a href="" class="footer-item__link">LV Perfume</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="grid__column-2-4">
+                        <h3 class="footer__heading">Theo Dõi</h3>
+                        <ul class="footer-list">
+                            <li class="footer-item">
+                                <a href="https://www.facebook.com/" class="footer-item__link">
+                                    <i class="footer-item-icon fa-brands fa-facebook-square"></i>
+                                    Facebook
+                                </a>
+                            </li>
+                            <li class="footer-item">
+                                <a href="https://www.instagram.com/" class="footer-item__link">
+                                    <i class="footer-item-icon fa-brands fa-instagram-square"></i>
+                                    Instagram
+                                </a>
+                            </li>
+                            <li class="footer-item">
+                                <a href="https://www.twitter.com/" class="footer-item__link">
+                                    <i class="footer-item-icon fa-brands fa-twitter-square"></i>
+                                    Twitter
+                                </a>
+                            </li>
+                            <li class="footer-item">
+                                <a href="" class="footer-item__link">
+                                    <i class="footer-item-icon fa-brands fa-linkedin"></i>
+                                    Linkedin
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="grid__column-2-4">
+                        <h3 class="footer__heading">Tải Ứng Dụng Trên Di Động</h3>
+                         <div class="footer__download">
+                             <img src="./assets/css/img/qr.png" alt="" class="footer__download-qr">
+                             <div class="footer__download-apps">
+                                 <a href="" class="footer__download-app-link">
+                                     <img src="./assets/css/img/app_store.png" alt="" class="footer__download-app-icon">
+                                 </a>
+                                 <a href="" class="footer__download-app-link">
+                                     <img src="./assets/css/img/google_play.png" alt="" class="footer__download-app-icon">
+                                 </a>
+                             </div>
+                         </div>
+                    </div>
+                    <div class="footer__comfirm">
+                        <a href="" class="footer__comfirm-link">
+                            <img src="./assets/css/img/bocongthuong.png" alt="" class="footer__comfirm-img">
+                        </a>
+                        
+                    </div>
+                </div>
+            </div>
+            <div class="footer__bottom">
+                <div class="grid">
+                    <p class="footer__text">© 2022 - Bản quyền thuộc về LTV Perfume Store</p>
+                </div>
+            </div>
+        </footer>
+    </div>
+    <div class="modal js-modal-signup">
+        <div class="modal__overlay"></div>
+
+
+        <div class="modal__body ">
+            <!-- signup form -->
+            <div class="auth-form">
+                <div class="auth-form__header">
+                    <h3 class="auth-form__header-header">Đăng Ký</h3>
+                    <span class="auth-form__header-switch-btn js-swith-to-signin">Đăng Nhập</span>
+                </div>
+                <div class="auth-form__container ">
+                    <div class="auth-form__form">
+                        <div class="auth-form__group">
+                            <input type="emai" name="" id="" class="auth-form__input" placeholder="Nhập Địa Chỉ Email">
+                        </div>
+                        <div class="auth-form__group">
+                        <input type="password" name="" id="" class="auth-form__input" placeholder="Nhập Mật Khẩu">
+                    </div>
+                    <div class="auth-form__group">
+                        <input type="password" name="" id="" class="auth-form__input" placeholder="Xác Nhận Lại Mật Khẩu">
+                    </div>
+                    </div>
+                    <div class="auth-form__aside">
+                        <p class="auth-form__policy-text">Bằng việc đăng ký thông tin tài khoản , bạn có đồng ý với 
+                            <a href="" class="auth-form__policy-link">Điều Khoản Dịch Vụ </a>&
+                            <a href="" class="auth-form__policy-link">Chính Sách Bảo Mật</a>
+                        </p>
+                    </div>
+                    <div class="auth-form__controls">
+                        <button class="btn btn-back js-btn-back">TRỞ LẠI</button>
+                        <button class="btn btn--primary">ĐĂNG KÝ</button>
+                    </div>
+
+                    
+                </div>
+                <div class="auth-form__socials">
+                    <a href="https://www.facebook.com/" class="btn btn--with-icon btn--with-icon-facebook">
+                    <i class=" fa-brands fa-facebook"></i>
+                        Kết Nối với FaceBook
+                    </a>
+                    <a href="https://accounts.google.com/" class="btn btn--with-icon btn--with-icon-google">
+                    <i class=" fa-brands fa-google"></i>
+                        Kết Nối với Google
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal js-modal-signin">
+        <div class="modal__overlay"></div>
+        <div class="modal__body">
+
+            <!-- signin form -->
+            <div class="auth-form">
+                <div class="auth-form__header">
+                    <h3 class="auth-form__header-header">Đăng Nhập</h3>
+                    <span class="auth-form__header-switch-btn js-swith-to-signup">Đăng Ký</span>
+                </div>
+                <div class="auth-form__container ">
+                    <div class="auth-form__form">
+                        <div class="auth-form__group">
+                            <input type="text" name="" id="" class="auth-form__input" placeholder="Địa Chỉ Email">
+                        </div>
+                        <div class="auth-form__group">
+                        <input type="password" name="" id="" class="auth-form__input" placeholder="Nhập Mật Khẩu">
+                    </div>
+                    </div>
+                    <div class="auth-form__aside-signin">
+                        <a href="" class="auth-form__aside-help-link auth-form__aside-help-link-forget">Quên mật Khẩu</a>
+                        <span class="auth-form__aside-signin-saperate"></span>
+                        <a href="" class="auth-form__aside-help-link">Cần Trợ Giúp?</a>
+    
+                    </div>
+                    <div class="auth-form__controls">
+                        <button class="btn btn-back js-btn-back-signin">TRỞ LẠI</button>
+                        <button class="btn btn--primary">ĐĂNG NHẬP</button>
+                    </div>
+    
+                    
+                </div>
+                <div class="auth-form__socials">
+                    <a href="https://www.facebook.com/" class="btn btn--with-icon btn--with-icon-facebook">
+                    <i class=" fa-brands fa-facebook"></i>
+                        Kết Nối với FaceBook
+                    </a>
+                    <a href="https://accounts.google.com/" class="btn btn--with-icon btn--with-icon-google">
+                    <i class=" fa-brands fa-google"></i>
+                        Kết Nối với Google
+                    </a>
+                </div>
+            </div>
+        </div>
+
+            
+        
+
+    </div>
+    
+    <script>
+        const SignupBtns = document.querySelector('.js-signup-btn');
+        const SigninBtns = document.querySelector('.js-signin-btn');
+        const modalSignup = document.querySelector('.js-modal-signup');
+        const modalSignin = document.querySelector('.js-modal-signin');
+        const BackBtns = document.querySelector('.js-btn-back');
+        const BackSigninBtns = document.querySelector('.js-btn-back-signin');
+        const SwitchToSignin = document.querySelector('.js-swith-to-signin');
+        const SwitchToSignup = document.querySelector('.js-swith-to-signup');
+        const modal =document.querySelectorAll('.modal')
+        
+
+
+
+        function OpenSignin(){
+            modalSignup.classList.remove('open')
+            modalSignin.classList.add('open')
+        }
+        function OpenSignup(){
+            modalSignin.classList.remove('open')
+
+            modalSignup.classList.add('open')
+        }
+        
+        function ShowSignup() {
+            modalSignup.classList.add('open')
+        }
+        function HideSignup() {
+            modalSignup.classList.remove('open')
+        }
+        function ShowSignin(){
+            modalSignin.classList.add('open')
+        }
+        // function HideSignin(){
+        //     modalSignin.classList.remove('open')
+        // }
+        // function HideSignin(){
+        //     modal-signin.classList.remove('open')
+        // }
+        function HideSignin(){
+            modalSignin.classList.remove('open')
+            // console.log(modalSignin)
+
+        }
+        
+
+        
+
+
+
+        SignupBtns.addEventListener('click',ShowSignup)
+        SwitchToSignin.addEventListener('click',OpenSignin)
+        SwitchToSignup.addEventListener('click',OpenSignup)
+        SigninBtns.addEventListener('click',ShowSignin)
+        BackBtns.addEventListener('click',HideSignin)
+        BackBtns.addEventListener('click',HideSignup)
+        BackSigninBtns.addEventListener('click',HideSignin)
+
+
+        
+    </script>
+</body>
+</html>
